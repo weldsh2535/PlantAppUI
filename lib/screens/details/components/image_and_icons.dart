@@ -6,9 +6,11 @@ class ImageAndIcons extends StatelessWidget {
   const ImageAndIcons({
     super.key,
     required this.size,
+    required this.image
   });
 
   final Size size;
+  final String image;
 
   @override
   Widget build(BuildContext context) {
@@ -55,10 +57,10 @@ class ImageAndIcons extends StatelessWidget {
                       color: kPrimaryColor.withOpacity(0.29),
                     )
                   ],
-                  image: const DecorationImage(
+                  image:  DecorationImage(
                       alignment: Alignment.centerLeft,
                       fit: BoxFit.cover,
-                      image: AssetImage("assets/images/zembaba.jpg"))),
+                      image: AssetImage(image))),
             )
           ],
         ),

@@ -109,7 +109,7 @@ class RecomandsPlants extends StatelessWidget {
               Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetailScreen(),
+                    builder: (context) => const DetailScreen(image:"assets/images/zembaba.jpg" ,),
                   ));
             },
           ),
@@ -122,7 +122,7 @@ class RecomandsPlants extends StatelessWidget {
                Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetailScreen(),
+                    builder: (context) => const DetailScreen(image: "assets/images/zembaba3.jpg",),
                   ));
             },
           ),
@@ -135,7 +135,7 @@ class RecomandsPlants extends StatelessWidget {
                Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetailScreen(),
+                    builder: (context) => const DetailScreen(image: "assets/images/zembaba4.jpg"),
                   ));
             },
           ),
@@ -148,7 +148,7 @@ class RecomandsPlants extends StatelessWidget {
                Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetailScreen(),
+                    builder: (context) => const DetailScreen(image: "assets/images/zembaba1.jpg"),
                   ));
             },
           ),
@@ -177,7 +177,7 @@ class RecommandPlanCard extends StatelessWidget {
          Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => DetailScreen(),
+                    builder: (context) => DetailScreen(image:image),
                   ));
       },
       child: Container(
@@ -188,9 +188,14 @@ class RecommandPlanCard extends StatelessWidget {
         width: size.width * .4,
         child: Column(
           children: <Widget>[
-            Image.asset(image),
             Container(
-              padding: EdgeInsets.all(kDefaultPadding / 2),
+              height: 150,
+              decoration: BoxDecoration(
+                 image:
+                DecorationImage(fit: BoxFit.fill, image: AssetImage(image))
+              ),),
+            Container(
+              padding: const EdgeInsets.all(kDefaultPadding / 2),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: const BorderRadius.only(
@@ -287,15 +292,15 @@ class TitleWithCustomUnderLine extends StatelessWidget {
               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
           ),
-          Positioned(
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: Container(
-                margin: EdgeInsets.only(right: kDefaultPadding / 4),
-                height: 7,
-                color: kPrimaryColor.withOpacity(0.2),
-              ))
+          // Positioned(
+          //     bottom: 0,
+          //     left: 0,
+          //     right: 0,
+          //     child: Container(
+          //       margin: EdgeInsets.only(right: kDefaultPadding / 4),
+          //       height: 7,
+          //       color: kPrimaryColor.withOpacity(0.2),
+          //     ))
         ],
       ),
     );

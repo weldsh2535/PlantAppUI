@@ -1,0 +1,14 @@
+com.oval.sms_receiver-jetified-window-1.0.0-beta04-0 /home/solomon/.gradle/caches/transforms-3/0070cf36121aeeb4a714234b9f52d8b7/transformed/jetified-window-1.0.0-beta04/res
+com.oval.sms_receiver-jetified-window-java-1.0.0-beta04-1 /home/solomon/.gradle/caches/transforms-3/014cc38c8408df31dc73bb9bf5f51109/transformed/jetified-window-java-1.0.0-beta04/res
+com.oval.sms_receiver-jetified-play-services-basement-17.1.0-2 /home/solomon/.gradle/caches/transforms-3/602eec2011712bedd3c9dbfcef37847e/transformed/jetified-play-services-basement-17.1.0/res
+com.oval.sms_receiver-jetified-annotation-experimental-1.1.0-3 /home/solomon/.gradle/caches/transforms-3/8483d258be040f0e5637047229a1798a/transformed/jetified-annotation-experimental-1.1.0/res
+com.oval.sms_receiver-core-1.6.0-4 /home/solomon/.gradle/caches/transforms-3/8999a62093f7e551ced3b07caff7e38a/transformed/core-1.6.0/res
+com.oval.sms_receiver-jetified-play-services-base-17.1.0-5 /home/solomon/.gradle/caches/transforms-3/de3809de56f70fbd6df1915407f87b4e/transformed/jetified-play-services-base-17.1.0/res
+com.oval.sms_receiver-main-6 /home/solomon/.pub-cache/hosted/pub.dev/sms_receiver-0.4.2/android/src/main/res
+com.oval.sms_receiver-release-7 /home/solomon/.pub-cache/hosted/pub.dev/sms_receiver-0.4.2/android/src/release/res
+com.oval.sms_receiver-pngs-8 /home/solomon/Pictures/YeneMekinaMobile-main/build/sms_receiver/generated/res/pngs/release
+com.oval.sms_receiver-resValues-9 /home/solomon/Pictures/YeneMekinaMobile-main/build/sms_receiver/generated/res/resValues/release
+com.oval.sms_receiver-rs-10 /home/solomon/Pictures/YeneMekinaMobile-main/build/sms_receiver/generated/res/rs/release
+com.oval.sms_receiver-mergeReleaseResources-11 /home/solomon/Pictures/YeneMekinaMobile-main/build/sms_receiver/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.oval.sms_receiver-mergeReleaseResources-12 /home/solomon/Pictures/YeneMekinaMobile-main/build/sms_receiver/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.oval.sms_receiver-merged_res-13 /home/solomon/Pictures/YeneMekinaMobile-main/build/sms_receiver/intermediates/merged_res/release

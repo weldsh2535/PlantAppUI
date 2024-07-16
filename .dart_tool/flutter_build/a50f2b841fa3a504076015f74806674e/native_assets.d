@@ -1,0 +1,1 @@
+ C:\\Users\\hp\\Documents\\myprojects\\PlantApp\\.dart_tool\\flutter_build\\a50f2b841fa3a504076015f74806674e\\native_assets.yaml: 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "41211540830",
+    "project_id": "tewos-yene-mekina",
+    "storage_bucket": "tewos-yene-mekina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41211540830:android:a3918bdcf152f2cd034bcf",
+        "android_client_info": {
+          "package_name": "com.example.tewosmobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtkLsuiVp1BgsB2rwo6PonXJANFx8U-Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

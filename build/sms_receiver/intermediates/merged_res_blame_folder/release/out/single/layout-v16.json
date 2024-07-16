@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.oval.sms_receiver-merged_res-12:/layout-v16/notification_template_custom_big.xml",
+        "source": "com.oval.sms_receiver-core-1.6.0-4:/layout-v16/notification_template_custom_big.xml"
+    }
+]
